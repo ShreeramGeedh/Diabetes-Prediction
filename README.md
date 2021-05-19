@@ -10,3 +10,5 @@ And getting very great accuracy
 https://www.kaggle.com/saurabh00007/diabetescsv
 
 ## Check Out the live Demo:-  
+
+https://diabetespredictionemc.herokuapp.com/
