@@ -69,10 +69,11 @@ body {
 		<div class="results">
 			{% if prediction==1 %}
 				<h1>Prediction: <span class='danger'>Opps! You have DIABETES.</span></h1>
+				<b>Caution: This is just a prediction and not doctoral advice. Kindly see a doctor if you feel the symptoms persist.</b><br>
 				
 			{% elif prediction==0 %}
 				<h1>Prediction: <span class='safe'>Hurrah !!! You DON'T have diabetes.</span></h1>
-				
+				<b>Caution: This is just a prediction and not doctoral advice. Kindly see a doctor if you feel the symptoms persist.</b><br>
 			{% endif %}
 		</div>
 
