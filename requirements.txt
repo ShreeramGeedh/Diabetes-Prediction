@@ -7,6 +7,7 @@ Werkzeug
 numpy
 scipy
 scikit-learn
+sklearn
 matplotlib
 pandas
 
