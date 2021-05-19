@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 # Loading the dataset
-df = pd.read_csv('diabetes.csv')
+df = pd.read_csv('kaggle_diabetes.csv')
 
 # Renaming DiabetesPedigreeFunction as DPF
 df = df.rename(columns={'DiabetesPedigreeFunction':'DPF'})
@@ -27,7 +27,7 @@ y = df['Outcome']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=0)
 
 # Creating Random Forest Model
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble._forest import RandomForestClassifier
 classifier = RandomForestClassifier(n_estimators=20)
 classifier.fit(X_train, y_train)
 
