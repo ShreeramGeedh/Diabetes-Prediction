@@ -5,8 +5,8 @@ Jinja2
 MarkupSafe
 Werkzeug
 numpy
-scipy
-scikit-learn==0.21.3
+scipy>=0.15.1
+scikit-learn>=0.18
 sklearn
 matplotlib
 pandas
