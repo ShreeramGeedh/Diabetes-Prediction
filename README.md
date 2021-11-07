@@ -3,7 +3,7 @@ Disease-Prediction using machine learning and make web app using Flask and deplo
 
 In this project I used Decision Tree Classifier
 
-And getting very great accuracy 
+And getting very great accuracy.
 
 # Dataset I used in this project:
 
